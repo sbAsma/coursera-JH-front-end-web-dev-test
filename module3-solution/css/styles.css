@@ -1,0 +1,100 @@
+body {
+	background-color: #9e1c1c;
+}
+/* START HEADER*/
+.navbar-brand {
+  padding-top: 25px;
+  height: 100px;
+}
+.navbar-brand h1 { /* Brand name */
+	float: left;
+	color: #104C4C;
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 5px;
+	margin-bottom: 0;
+	margin-left: 30px;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#header-nav {
+	background-color: #d9c2c1;
+	border-radius: 0;
+	border-bottom  : 5px solid ;
+	border-color: #104C4C;
+	
+}
+#navbar-nav {
+	font-size: 2.5em;
+	height: 10px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #104C4C;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list li {
+	font-size: 2em;
+	font-weight: bold;
+	color: #5a1010;
+	text-align: center;
+}
+#nav-list li:hover {
+  background: #E7E7E7;
+}
+#collapsable-nav {
+	border-top: 2px solid #104C4C;
+	background-color: white;
+}
+ul#nav-list.nav.navbar-nav.navbar-right.visible-xs{
+	margin-top: 0;
+}
+
+button.navbar-toggle {
+	float: right;
+ 	top: 10px;
+ 	right: 20px;
+ 	padding: 15px 10px 5px 10px;
+ }
+span.icon-bar{
+	/*border: 2px solid #104C4C;*/
+	margin: 0px 5px 10px 5px;
+}
+.navbar-nav{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.nav li{
+	border: 2px solid #104C4C;
+}
+/* END HEADER */
+h2.text-center{
+	color: #e5d6d5;
+	font-weight: bold;
+	font-size: 2.5em;
+	text-shadow: 1px 1px 1px #222;
+	margin-bottom: 20px;
+}
+
+section h3 {
+	font-weight: bold;
+}
+section {
+	background-color: #104C4C;
+	color: white;
+	text-align: center;
+	height: 1000px;
+}
+
+@media (max-width: 767px) {
+	.col-xxs-12 {
+		width: 80%;
+		margin-left: 10%;
+	}
+}
+
+/*.col-md-12*/
