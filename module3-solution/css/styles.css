@@ -96,5 +96,7 @@ section {
 		margin-left: 10%;
 	}
 }
-
-/*.col-md-12*/
+p.text-left {
+	padding: 10px;
+}
+ 
